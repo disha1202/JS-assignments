@@ -1,8 +1,7 @@
 // 5. Provided following  array:
 //     [10, 1, 42, 36, 4, 75, 6, 97, 81, 19, 10]
 
-//     c. Print “List has a prime no” if there is a prime no in it
-  
+
 
 var arr =  [10, 1, 42, 36, 4, 75, 6, 97, 81, 19, 10];
 
