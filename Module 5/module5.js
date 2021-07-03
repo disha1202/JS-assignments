@@ -3,45 +3,45 @@ let arr = [
         "id":1,
         "name":"Amit Kumar",
         "age":25,
-        "loginStatus" : true
+        "isLoggedIn" : true
     },
     {
         "id":2,
         "name":"Rahul Dixit",
         "age":20,
-        "loginStatus" : false
+        "isLoggedIn" : false
     },
     {
         "id":3,
         "name":"Ravi Joshi",
         "age":55,
-        "loginStatus" : true
+        "isLoggedIn" : true
     },
     {
         "id":4,
         "name":"Rohit Verma",
         "age":37,
-        "loginStatus" : false
+        "isLoggedIn" : false
     },
     {
         "id":5,
         "name":"Ajay Jain",
         "age":17,
-        "loginStatus" : true
+        "isLoggedIn" : true
     }
     
 
 ];
 // To display the details(name and isLoggedIn) of a user who is currently logged-in using filter().
 
-let arr1 = arr.filter(x => x.loginStatus=== true);
+let arr1 = arr.filter(x => x.isLoggedIn=== true);
 console.log(arr1);
 
 // To display the name of the users who are currently logged-in using map().
 
 let arr2 = arr.map(check);
 function check(person){
-    if(person.loginStatus===true)
+    if(person.isLoggedIn===true)
     {
         return person;
     }
